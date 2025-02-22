@@ -29,10 +29,10 @@ const PatientForm = () => {
     },
   });
 
-  // 2. Define a submit handler.
+  // 2.  Einen Untertitel-Handler Definieren
   function onSubmit(values: z.infer<typeof formSchema>) {
-    // Do something with the form values.
-    // ✅ This will be type-safe and validated.
+    // Etwas mit den Formularwerten machen.
+    // ✅ Dies wird typsicher und validiert sein.
     console.log(values);
   }
 
